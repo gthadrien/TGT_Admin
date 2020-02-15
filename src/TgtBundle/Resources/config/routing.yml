@@ -1,0 +1,59 @@
+tgt_homepage:
+    path:     /
+    defaults: { _controller: TgtBundle:Default:index }
+
+region_add:
+    path:     /registerReg
+    defaults: { _controller: TgtBundle:Region:add }
+
+region_list:
+    path:     /listReg
+    defaults: { _controller: TgtBundle:Region:list }
+
+region_update:
+    path:     /updateReg/{id}
+    defaults: { _controller: TgtBundle:Region:update }
+
+region_del:
+    path:     /delReg/{id}
+    defaults: { _controller: TgtBundle:Region:delete }
+
+event_add:
+    path:     /registerEv
+    defaults: { _controller: TgtBundle:Event:add }
+
+event_list:
+    path:     /listEv
+    defaults: { _controller: TgtBundle:Event:list }
+
+event_del:
+    path:     /delEv/{id}
+    defaults: { _controller: TgtBundle:Event:delete }
+
+event_update:
+    path:     /delEv/{id}
+    defaults: { _controller: TgtBundle:Event:update }
+
+publication_list:
+    path:     /listPub
+    defaults: { _controller: TgtBundle:Publication:list }
+
+publication_del:
+    path:     /delPub/{id}
+    defaults: { _controller: TgtBundle:Publication:delete }
+
+publication_add:
+    path:     /addPub
+    defaults: { _controller: TgtBundle:Publication:add }
+
+commentaire_list:
+    path:     /listCom
+    defaults: { _controller: TgtBundle:Commentaire:list }
+
+commentaire_del:
+    path:     /delCom/{id}
+    defaults: { _controller: TgtBundle:Commentaire:delete }
+
+commentaire_add:
+    path:     /addCom
+    defaults: { _controller: TgtBundle:Commentaire:add }
